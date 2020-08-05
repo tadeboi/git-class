@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+     background-image: url("../img/background5.jpg");
+     object-fit: cover; 
+     background-repeat: no-repeat;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    margin: auto;
+    max-width: 480px;
+    margin-top: 150px;
+    border-radius: 8px;
+    
+}
+
+#heading{
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    
+}
+.fields{
+    margin: 20px;
+    display: flex;
+}
+/* .keys{
+    width: 40px;
+    padding: -10px;
+} */
+input[type="email"], input[type="password"]{
+    font-size: 20px;
+    width: 422px;
+    margin-bottom: 17px;
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#forgot{
+    margin-left: 20px;
+    margin-top: -5px;
+    text-decoration: underline;
+}
+::placeholder{
+    color: white
+}
+input[type="submit"]{
+    font-size: 30px;
+    width: 430px;
+    color: white;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #3498DB;
+    border: none;
+}
+#check{
+    margin-left: 20px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  color: gray;
+  background: gray;
+}
+#signed{
+    padding-left: 7px;
+}
+#social{
+    display: flex;
+    font-size: 20px;
+    margin: 20px;
+}
+#signup{
+    text-decoration: underline;
+}
+
+#media{
+    margin-left: 29px;
+    
+}
+input[type="email"]{
+    background: url("../img/email.png") no-repeat right -3px center;
+    background-size: 40px;
+    padding-bottom: 7px;
+}
+
+input[type="password"]{
+    background: url("../img/password.png") no-repeat right -3px center;
+    background-size: 40px;
+    padding-bottom: 7px;
+}
